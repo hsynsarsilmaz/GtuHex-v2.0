@@ -1,10 +1,10 @@
 Compile = javac
 Run= java
-Interfaces = HexGame.java
-Classes = Engine.java StartScreen.java Game.java Program.java
+Interfaces = src/HexGame.java
+Classes = src/Engine.java src/StartScreen.java src/Game.java src/Program.java
 
 
 Compile and Run: 
 	$(Compile) $(Interfaces) $(Classes)
-	$(Run) Program
-	rm *.class
+	$(Run) src/Program
+	rm src/*.class
